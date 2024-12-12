@@ -1,0 +1,7 @@
+/config/paymob.example.php
+/config/paypal.example.php
+/config/tap.example.php
+/config/stripe.example.php
+/vendor
+composer.lock
+.phpunit.result.cache

@@ -1,0 +1,40 @@
+{
+	"name": "abdulbaset/payment-gateways-integration",
+	"description": "A PHP package for seamless integration with various payment gateways, providing a unified API for processing payments across multiple platforms.",
+	"license": "MIT",
+	"version": "1.0.0",
+	"homepage": "https://digitalatum.com",
+	"authors": [
+		{
+			"name": "Abdulbaset R. Sayed",
+			"email": "AbdulbasetRedaSayedHF@Gmail.com"
+		},
+		{
+			"name": "Abdulbaset R. Sayed",
+			"email": "Abdulbaset_RS@DigitalAtum.com"
+		}
+	],
+	"keywords": [
+		"php",
+		"payment-gateways-integration",
+		"payment",
+		"gateways",
+		"integration",
+		"payment-api",
+		"paymob",
+		"strip"
+	],
+	"autoload": {
+		"psr-4": {
+			"Abdulbaset\\PaymentGatewaysIntegration\\": "src/"
+		}
+	},
+	"require": {
+		"php": "^7.3|^8.0",
+		"guzzlehttp/guzzle": "^7.9",
+		"stripe/stripe-php": "^16.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "9.5"
+	}
+}

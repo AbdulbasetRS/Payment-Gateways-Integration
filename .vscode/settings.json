@@ -1,0 +1,21 @@
+{
+	// "editor.formatOnSave": true,
+	"editor.fontFamily": "Consolas, 'Courier New', monospace, Manrope SemiBold",
+	"terminal.integrated.fontFamily": "Fira Code, Consolas, 'Courier New', monospace, Manrope",
+	"editor.fontLigatures": true,
+	"terminal.integrated.fontSize": 15,
+	"terminal.integrated.fontWeight": "500", // "normal" or "bold", 100 to 900
+	"editor.showFoldingControls": "always",
+	"editor.folding": true,
+	"editor.foldingStrategy": "auto",
+	"prettier.useTabs": true,
+	"editor.tabCompletion": "on",
+	"editor.acceptSuggestionOnEnter": "on",
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	}
+
+	// "prettier.tabWidth": 2
+}
